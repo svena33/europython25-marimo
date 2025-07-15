@@ -1,0 +1,14 @@
+[project]
+name = "europython25-marimo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=5.5.0",
+    "u8darts[all]>=0.36.0",
+    "marimo>=0.14.10",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.0",
+    "ruff>=0.12.3",
+]
