@@ -68,25 +68,27 @@ Launch the interactive demos with Marimo:
 
 ```bash
 # European Snacks Explorer
-marimo edit EUP25_Marimo_D1.py
+uv run marimo edit EUP25_Marimo_D1.py
 
 # Trdelník Sales Forecasting
-marimo edit EUP25_Marimo_D2.py
+uv run marimo edit EUP25_Marimo_D2.py
 ```
 
 Or run the standalone inference example:
 
 ```bash
-python marimo_inference.py
+uv run python marimo_inference.py
 ```
 
-## 🛠 Technologies Demonstrated
+## 🛠 Technologies
 
 - **[Marimo](https://marimo.io/)** - Reactive Python notebooks
-- **[Altair](https://altair-viz.github.io/)** - Declarative statistical visualization
+- **[Altair](https://altair-viz.github.io/)** - Declarative visualization
 - **[Darts](https://unit8co.github.io/darts/)** - Time series forecasting library
-- **[LightGBM](https://lightgbm.readthedocs.io/)** - Gradient boosting framework
-- **[Pandas](https://pandas.pydata.org/)** - Data manipulation and analysis
+
+## Troubleshooting
+
+The darts might require some extra steps to setup. Follow their installation guide if you run into problems: https://github.com/unit8co/darts/blob/master/INSTALL.md.
 
 ## <img src="logos/marimo_logo_small.png" alt="marimo" width="20" /> About Marimo
 
@@ -94,7 +96,7 @@ Marimo is a reactive notebook for Python that automatically updates cells when t
 
 - **Reactive execution** - No more stale cells or hidden state
 - **UI components** - Rich, interactive elements out of the box
-- **Git-friendly** - Clean Python files that work well with version control
+- **Git-friendly** - Marimo notebooks are just `.py` files so they work well with version control
 - **Production ready** - Deploy notebooks as web apps with a single command
 
 Learn more at [marimo.io](https://marimo.io/)
