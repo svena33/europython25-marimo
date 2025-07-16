@@ -5,7 +5,6 @@
   <img src="logos/marimo_logo.svg" alt="Marimo Logo" width="200", style="margin-left: 25px;"  />
 </p>
 
-
 This repository contains the demonstration materials for a presentation **Meet Marimo: The next-gen notebook** at EuroPython 2025.
 
 ## 🎯 About This Presentation
@@ -17,10 +16,12 @@ This presentation showcases **Marimo**, an open-source reactive notebook alterna
 ### Interactive Demos
 
 - **`EUP25_Marimo_D1.py`** - European Snacks Explorer
+
   - Interactive dropdown to explore local snacks from different European cities
   - Demonstrates Marimo's UI components and reactivity
 
 - **`EUP25_Marimo_D2.py`** - Trdelník Sales Forecasting
+
   - Time series forecasting demo using LightGBM
   - Showcases Marimo's integration with machine learning workflows
   - Interactive data visualization with Altair
@@ -32,6 +33,7 @@ This presentation showcases **Marimo**, an open-source reactive notebook alterna
 ### Data Assets
 
 The `data/` folder contains:
+
 - **`european_snacks.csv`** - Dataset mapping European cities to their local snacks.
 - **`trdelnik_sales.csv`** - Historical sales data (synthetic data) for Trdelník sales forecasting.
 
@@ -49,12 +51,13 @@ The `data/` folder contains:
 ### Installation
 
 1. Clone this repository:
+
 ```bash
-git clone <repository-url>
-cd europython25-marimo
+git clone git clone https://github.com/svena33/europython25-marimo
 ```
 
 2. Install dependencies using UV:
+
 ```bash
 uv sync
 ```
@@ -72,6 +75,7 @@ marimo edit EUP25_Marimo_D2.py
 ```
 
 Or run the standalone inference example:
+
 ```bash
 python marimo_inference.py
 ```
@@ -88,7 +92,6 @@ python marimo_inference.py
 
 Marimo is a reactive notebook for Python that automatically updates cells when their dependencies change. It offers:
 
-
 - **Reactive execution** - No more stale cells or hidden state
 - **UI components** - Rich, interactive elements out of the box
 - **Git-friendly** - Clean Python files that work well with version control
@@ -96,4 +99,4 @@ Marimo is a reactive notebook for Python that automatically updates cells when t
 
 Learn more at [marimo.io](https://marimo.io/)
 
-*Presented at EuroPython 2025 by [Sven Arends](https://svenarends.com)* 
+_Presented at EuroPython 2025 by [Sven Arends](https://svenarends.com)_
