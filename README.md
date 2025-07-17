@@ -5,7 +5,7 @@
   <img src="logos/marimo_logo.svg" alt="Marimo Logo" width="200", style="margin-left: 25px;"  />
 </p>
 
-This repository contains the demonstration materials for a presentation **Meet Marimo: The next-gen notebook** at EuroPython 2025.
+This repository contains the demonstration materials for the presentation **Meet Marimo: The next-gen notebook** at EuroPython 2025.
 
 ## 🎯 About This Presentation
 
