@@ -88,7 +88,8 @@ uv run python marimo_inference.py
 
 ## Troubleshooting
 
-The darts might require some extra steps to setup. Follow their installation guide if you run into problems: https://github.com/unit8co/darts/blob/master/INSTALL.md.
+The darts package might require some extra steps to setup. 
+Follow their installation guide if you run into problems: https://github.com/unit8co/darts/blob/master/INSTALL.md.
 
 ## <img src="logos/marimo_logo_small.png" alt="marimo" width="20" /> About Marimo
 
